@@ -1,0 +1,36 @@
+{
+  "directories": {
+    "datafile": "./dataset/native_flipped_ba_sa_pyt/",
+    "out_dir": "./Experiments"
+  },
+  "model_params": {
+    "feat": 7,
+    "hid1": 32,
+    "hid2": 64,
+    "hid3": 128,
+    "par": 256,
+    "emb_siz": 3,
+    "ker_siz": 3,
+    "use_weight": 1
+  },
+  "optimizer_wh": {
+    "B1": 0.9,
+    "B2": 0.999,
+    "LR_seg": 0.001
+  },
+  "optimizer_mu": {
+    "LR": 0.000000001
+  },
+  "optimizer_si": {
+    "LR": 1000
+  },
+  "seed": {
+    "seed": 5
+  },
+  "generator": {
+    "num_epochs": 4000,
+    "initial_epoch": 0,
+    "batch_size": 1,
+    "plot_separate": 0
+  }
+}
