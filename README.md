@@ -1,6 +1,9 @@
 # Spectral Graph Convolution for Infant Brain segmentation and age prediction
 The code used for cortical surface parcellation and age regression (birth age, scan age)
 
+### Spectral embedding
+The aligned spectral embedding for brain surfaces can be computed using the following repository
+
 ### Training
 The model can be trained using below command:  
 ```
