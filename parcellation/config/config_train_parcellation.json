@@ -1,0 +1,36 @@
+{
+  "directories": {
+    "datafile": "./dataset/native_parcellation_pyt/",
+    "out_dir": "./Experiments"
+  },
+  "model_params": {
+    "feat": 7,
+    "hid1": 256,
+    "hid2": 128,
+    "hid3": 64,
+    "par": 36,
+    "emb_siz": 3,
+    "ker_siz": 6,
+    "use_weight": 1
+  },
+  "optimizer_wh": {
+    "B1": 0.9,
+    "B2": 0.999,
+    "LR_seg": 0.005
+  },
+  "optimizer_mu": {
+    "LR": 0.000000001
+  },
+  "optimizer_si": {
+    "LR": 1000
+  },
+  "seed": {
+    "seed": 5
+  },
+  "generator": {
+    "num_epochs": 400,
+    "initial_epoch": 0,
+    "batch_size": 1,
+    "plot_separate": 0
+  }
+}
