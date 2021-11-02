@@ -3,11 +3,23 @@ The code used for cortical surface parcellation and age regression (birth age, s
 
 ### Spectral embedding
 The aligned spectral embedding for brain surfaces can be computed using the following repository
-
+  ```
+  https://github.com/kharitz/aligned_spectral_embedding.git
+  ```
 ### Training
 The model can be trained using below command:  
+To train parcellation/segmentation newtork
 ```
 python3 main_train_parcellation.py --config ./parcellation/config/config_train_parcellation.json --gpu 0
+```
+
+To train birth age regression newtork
+```
 python3 main_train_birth_regression.py --config ./parcellation/config/config_train_birth_regression.json --gpu 0
+```
+
+To train scan age regression newtork
+```
 python3 main_train_scan_regression.py --config ./parcellation/config/config_train_scan_regression.json --gpu 0
 ```
+
