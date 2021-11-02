@@ -6,6 +6,10 @@ The aligned spectral embedding for brain surfaces can be computed using the foll
   ```
   https://github.com/kharitz/aligned_spectral_embedding.git
   ```
+  
+### Dataset
+A "dataset" folder with the aligned spectral embedding is taken as input for brain surface analyis 
+
 ### Training
 The model can be trained using below command:  
 To train parcellation/segmentation newtork
